@@ -2,7 +2,7 @@ require 'formula'
 
 class Ab < Formula
   homepage 'http://httpd.apache.org/docs/trunk/programs/ab.html'
-  url 'http://archive.apache.org/dist/httpd/httpd-2.4.2.tar.bz2'
+  url 'http://archive.apache.org/dist/httpd/httpd-2.4.3.tar.bz2'
   sha1 '8d391db515edfb6623c0c7c6ce5c1b2e1f7c64c2'
 
   def patches
@@ -50,9 +50,9 @@ index 5f4c09f..84d3de2 100755
 @@ -6037,8 +6037,6 @@ $as_echo "$as_me: Using external PCRE library from $PCRE_CONFIG" >&6;}
      done
    fi
- 
+
 -else
 -  as_fn_error $? "pcre-config for libpcre not found. PCRE is required and available from http://pcre.org/" "$LINENO" 5
  fi
- 
+
    APACHE_VAR_SUBST="$APACHE_VAR_SUBST PCRE_LIBS"
