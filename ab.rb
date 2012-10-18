@@ -2,8 +2,8 @@ require 'formula'
 
 class Ab < Formula
   homepage 'http://httpd.apache.org/docs/trunk/programs/ab.html'
-  url 'http://archive.apache.org/dist/httpd/httpd-2.4.2.tar.bz2'
-  sha1 '8d391db515edfb6623c0c7c6ce5c1b2e1f7c64c2'
+  url 'http://archive.apache.org/dist/httpd/httpd-2.4.3.tar.bz2'
+  sha1 '0ef1281bb758add937efe61c345287be2f27f662'
 
   def patches
       {
